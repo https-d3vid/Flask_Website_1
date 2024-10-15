@@ -1,0 +1,17 @@
+{% extends "windex.html" %}
+{% block title %} Signin Page{% endblock %}
+
+{% block content %}
+<form action="#" method="post"><!-- Action will redirect when form is complete. # will return to the page it was on -->
+    <h1>Sign in</h1>
+    
+    <p>Username:</p>
+    <p><input type="text" name="us" required/> </p>
+    <p></p>
+
+    <p>Password:</p>
+    <p><input type="password" name="ps"  required/> </p>
+    <p><input type="Submit" value="submit" /> </p>
+    <p></p>
+</form>
+{% endblock %}   
